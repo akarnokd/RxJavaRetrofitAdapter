@@ -74,7 +74,7 @@ apply plugin: "com.vanniktech.maven.publish"
 test {
     maxHeapSize = "1g"
     testLogging  {
-        events "started", "failed", "standard_error" // "skipped", "passed"
+        events "started", "failed" //, "standard_error", "skipped", "passed"
         exceptionFormat="full"
         //    showStandardStreams = true
     }
