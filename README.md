@@ -15,7 +15,7 @@ RxJava 3: [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.
 ```groovy
 
 dependencies {
-    implementation "com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0-RC4"
+    implementation "com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0-RC5"
 }
 ```
 

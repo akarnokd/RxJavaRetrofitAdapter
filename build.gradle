@@ -19,7 +19,7 @@ apply plugin: 'java'
 
 apply plugin: 'jacoco'
 jacoco {
-    toolVersion = "0.8.4"
+    toolVersion = "0.8.5"
 }
 
 build.dependsOn jacocoTestReport
