@@ -25,13 +25,11 @@ import retrofit2.Response;
  * @param <T> the value type of the result 
  */
 public final class Result<T> {
-  @SuppressWarnings("ConstantConditions") // Guarding public API nullability.
   public static <T> Result<T> error(Throwable error) {
     if (error == null) throw new NullPointerException("error == null");
     return new Result<>(null, error);
   }
 
-  @SuppressWarnings("ConstantConditions") // Guarding public API nullability.
   public static <T> Result<T> response(Response<T> response) {
     if (response == null) throw new NullPointerException("response == null");
     return new Result<>(response, null);

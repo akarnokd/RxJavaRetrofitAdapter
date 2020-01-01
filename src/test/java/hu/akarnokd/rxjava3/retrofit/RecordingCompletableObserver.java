@@ -92,7 +92,7 @@ final class RecordingCompletableObserver implements CompletableObserver {
   public static final class Rule implements TestRule {
     final List<RecordingCompletableObserver> subscribers = new ArrayList<>();
 
-    public <T> RecordingCompletableObserver create() {
+    public RecordingCompletableObserver create() {
       RecordingCompletableObserver subscriber = new RecordingCompletableObserver();
       subscribers.add(subscriber);
       return subscriber;

@@ -73,7 +73,6 @@ public final class RxJava3CallAdapterFactory extends CallAdapter.Factory {
    * @param scheduler the scheduler to run the network operations on
    * @return the new adapter instance
    */
-  @SuppressWarnings("ConstantConditions") // Guarding public API nullability.
   public static RxJava3CallAdapterFactory createWithScheduler(Scheduler scheduler) {
     if (scheduler == null) throw new NullPointerException("scheduler == null");
     return new RxJava3CallAdapterFactory(scheduler, false);
