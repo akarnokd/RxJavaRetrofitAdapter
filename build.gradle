@@ -51,7 +51,7 @@ dependencies {
     implementation "io.reactivex.rxjava3:rxjava:3.0.0-RC7"
     implementation "com.squareup.retrofit2:retrofit:2.7.0"
     testImplementation 'junit:junit:4.12'
-    testImplementation 'com.squareup.okhttp3:mockwebserver:4.2.2'
+    testImplementation 'com.squareup.okhttp3:mockwebserver:4.3.0'
     testImplementation 'org.assertj:assertj-core:3.14.0'
     testImplementation 'com.google.guava:guava:28.2-jre'
 }
