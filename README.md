@@ -3,7 +3,7 @@ RxJava 3 adapter for Retrofit 2
 
 Port of Retrofit/RxJava2 adapter: https://github.com/square/retrofit/tree/master/retrofit-adapters/rxjava2
 
-<a href='https://travis-ci.com/akarnokd/RxJavaRetrofitAdapter/builds'><img src='https://travis-ci.com/akarnokd/RxJavaRetrofitAdapter.svg?branch=master'></a>
+<a href='https://github.com/akarnokd/RxJavaRetrofitAdapter/actions?query=workflow%3A%22Java+CI+with+Gradle%22'><img src='https://github.com/akarnokd/RxJavaRetrofitAdapter/workflows/Java%20CI%20with%20Gradle/badge.svg'></a>
 [![codecov.io](http://codecov.io/github/akarnokd/RxJavaRetrofitAdapter/coverage.svg?branch=master)](http://codecov.io/github/akarnokd/RxJavaRetrofitAdapter?branch=master)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.akarnokd/rxjava3-retrofit-adapter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.akarnokd/rxjava3-retrofit-adapter)
 
