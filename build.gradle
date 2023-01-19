@@ -57,8 +57,6 @@ dependencies {
 }
 
 
-apply plugin: 'maven'
-
 apply plugin: 'biz.aQute.bnd.builder'
 
 jar {
