@@ -10,7 +10,7 @@ buildscript {
     }
     dependencies {
         classpath "biz.aQute.bnd:biz.aQute.bnd.gradle:6.4.0"
-        classpath 'com.vanniktech:gradle-maven-publish-plugin:0.22.0'
+        classpath 'com.vanniktech:gradle-maven-publish-plugin:0.23.2'
         classpath "gradle.plugin.com.hierynomus.gradle.plugins:license-gradle-plugin:0.16.1"
     }
 }
